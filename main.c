@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include "GeneralPurposeBuffer.h"
 
+extern void PrintHello(void);
+
 int main()
 {
 

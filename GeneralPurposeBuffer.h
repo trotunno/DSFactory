@@ -1,6 +1,6 @@
-#ifndef _GPB_H_
-#define _GPB_H_
+#ifndef _GENERALPURPOSEBUFFER_H_
+#define _GENERALPURPOSEBUFFER_H_
 
-#include <stdint.h>
+#include "common/gpbcommon.h"
 
 #endif

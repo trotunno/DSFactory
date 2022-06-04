@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-lm -Werror -I.
-CFILES=main.c GeneralPurposeBuffer.c GeneralPurposeBuffer.h
+CFLAGS=-lm -I.
+CFILES= main.c common/gpbcommon.h generalpurposebuffer.c generalpurposebuffer.h queue/queue.c queue/queue.h ringbuffer/ringbuffer.c ringbuffer/ringbuffer.h stack/stack.h stack/stack.c
 
-gpb: main.c GeneralPurposeBuffer.c GeneralPurposeBuffer.h
-	$(CC) -o gpb $(CFILES) $(CFLAGS)
+executable: $(CFILES)
+	$(CC) -o executable $(CFILES) $(CFLAGS)
