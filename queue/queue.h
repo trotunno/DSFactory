@@ -8,7 +8,7 @@
 #ifndef _QUEUE_QUEUE_H
 #define _QUEUE_QUEUE_H
 
-#include "GeneralPurposeBuffer.h"
+#include "../generalpurposebuffer/generalpurposebuffer.h"
 
 // enum for queue types.
 // STATIC queues are intended for windowing purposes where data history is needed.

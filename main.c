@@ -1,10 +1,11 @@
-#include <stdint.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include "GeneralPurposeBuffer.h"
+/*
+ * main.c
+ *
+ *  Created on: Jun 4, 2022
+ *      Author: Dylan
+ */
 
-extern void PrintHello(void);
+#include "dsfactory/dsfactory.h"
 
 int main()
 {
